@@ -2,7 +2,7 @@
 
 <p align="center">
 API REST (Em Construção) <br/>
-Objeto de estudo na displina Tópicos Especiais em Tecnologia I <br/>
+Objeto de estudo na disciplina Tópicos Especiais em Tecnologia I <br/>
 </p>
 
 <br>
@@ -21,4 +21,4 @@ Esta API esta sendo desenvolvida com as seguintes tecnologias:
 
 ## 💻 Projeto <br/>
 
-A API REST esta sendo criada para a gestão usuários e pessoas.
+A API REST esta sendo criada para a gestão de usuários e pessoas.
