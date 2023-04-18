@@ -1,7 +1,7 @@
 <h1 align="center"> AULA 17/04/23: API REST </h1>
 
 <p align="center">
-API REST (Em Construção) <br/>
+API REST (Under Construction) <br/>
 Objeto de estudo na disciplina Tópicos Especiais em Tecnologia I <br/>
 </p>
 
