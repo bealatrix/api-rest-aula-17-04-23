@@ -16,6 +16,9 @@ export class BaseRoutes {
   private init(): void {
     this.router.get('/', this.controller.index);
     this.router.get('/info', this.controller.info);
+
+    // adiciona rota para retornar informações do desenvolvedor da api
+    this.router.get('/developer', this.controller.developerInfo); // nova rota adicionada
   }
 
   public routes(): Router {
