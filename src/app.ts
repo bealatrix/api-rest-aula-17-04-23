@@ -2,8 +2,7 @@ import express, { Application } from 'express';
 import bodyParser from 'body-parser';
 import { initRoutes } from './api/routes';
 import logger from 'morgan';
-import { BaseRoutes } from './api/base/base.routes';
-import { UserRoutes } from './api/user/user.routes';
+
 
 
 export class App {
@@ -33,11 +32,7 @@ export class App {
 
   private routes(): void {
     initRoutes(this.app);
-    const baseRoutes = new BaseRoutes();
-    const userRoutes = new UserRoutes();
 
-    this.app.use('/api/v1', baseRoutes.routes());
-    this.app.use('/api/v1', userRoutes.routes());
   }
 
   private async database(): Promise<void> {
